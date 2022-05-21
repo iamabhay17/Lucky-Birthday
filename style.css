@@ -1,0 +1,64 @@
+body
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-color:rgb(128, 128, 239);
+}
+
+.title
+{
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.header-text
+{
+    color: gray;
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+}
+label
+{
+    font-weight: bold;
+    color: gray;
+    font-size: 1.4rem;
+}
+input
+{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    padding: 0.3rem;
+}
+
+#check
+{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+}
+.result
+{
+    width: 360px;
+    margin: 2rem;
+    padding:1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
